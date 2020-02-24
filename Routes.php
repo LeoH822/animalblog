@@ -1,11 +1,17 @@
 <?php
-	Route::set("about_us", function() {
-		echo "about us";
+
+	Route::set("index.php", function() {
+		Index::CreateView("Index");
 	});
 
 
-	Route::set("content_page", function() {
-		echo "dsadasdas";
+	Route::set("about_us", function() {
+		AboutUs::CreateView("AboutUs");
+	});
+
+
+	Route::set("contact_us", function() {
+		ContactUs::CreateView('ContactUs');
 	});
 
 ?>
