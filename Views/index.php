@@ -54,7 +54,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Articles</h1>
       <p>Welcome to the Animal Blog, below you will find articles all about animals.</p>
-      <img src="static\Images\panda.png" alt="Panda Image"/>
+      <img src="static\Images\elephant.jpg" alt="Panda Image"/>
     </div>1
     <div class="w3-third w3-container">
       <p class="w3-border w3-padding-large w3-padding-32 w3-center">Image 1</p>
