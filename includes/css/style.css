@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+
+*,*:before,*:after{
+	.moz-box-sizing:border-box;
+	.webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	.ms-text-size-adjust: 100%;
+	.moz-text-size-adjust: 100%;
+	.webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor:pointer;}
+button::-moz-focus-inner-{padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+ul-li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5{font-size: inherit;font-weight: 400;}
+
+/*----------------------------------------------*/
+
+
+
+/*SCRATCH--------------------------------*/
+
+/*HEADER*/
+
+#rashid{
+	width: 100%;
+	line-height: 100px;
+
+}
+
+header {
+	background-color: white;
+	height: 120px;
+	width: 100%;
+	margin-bottom: 50px;
+	border-top: 1.5px solid red;
+
+}
+
+
+
+header #logoHeader{
+	
+	width:25%;
+	height: 100%;
+	float: left;
+}
+
+#logoHeader img{
+	height: 100%;
+	width: 50%;
+	margin-left:20%;
+	margin-right: 20%;
+
+
+}
+
+header  #menuHeader{
+	width: 60%;
+	float: left;
+
+	height: 100%;
+	padding-bottom: 20px;
+	padding-top: 40px;
+
+}
+
+header .menu {
+	float: left;
+	
+	margin-left:10%;
+
+}
+
+.menu a{
+	font-family: 'Kalam';
+	font-size: 35px;
+	color: #F7C61C;
+	font-weight: normal;
+
+
+}
+
+.menu a:hover{
+	color: #2D9CDB;
+}
+
+header #RegAutho{
+	float: left;
+	width: 10%;
+	height: 100%;
+	border: 1px solid red;
+	padding: 9px;
+	
+	
+}
+
+header .regautho{
+
+    border: 1px solid gray;
+	font-size: 29px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+	height: 35px;
+	
+	
+}
+
+
+/* Content Scratch ---------------------------------------*/
+
+#allContent{
+	width: 80%;
+	max-width: 80%;
+	margin: 0 auto;
+	height: 1000px;
+	background-color: #D5B7B7;
+}	
+
+#allContent .leftColumn {
+	background-color: #926969;
+	width: 75%;
+	height: 100%;
+}
