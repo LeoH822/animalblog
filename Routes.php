@@ -14,4 +14,9 @@
 		ContactUs::CreateView('ContactUs');
 	});
 
+
+	Route::set("login", function() {
+		Login::CreateView('Login');
+	})
+
 ?>

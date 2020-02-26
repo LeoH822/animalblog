@@ -25,8 +25,8 @@
 		</div>
 
 		<div id = "RegAutho">
-			<div class="regautho reg">Reg</div>
-			<div class="regautho autho">Autho</div>
+			<div class="regautho reg">Registration</div>
+			<div class="regautho autho">Authoresation</div>
 		</div>
 	
 	</header>

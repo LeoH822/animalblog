@@ -110,25 +110,36 @@ header .menu {
 }
 
 header #RegAutho{
+	background-color:#F8EEBF;
 	float: left;
 	width: 10%;
 	height: 100%;
 	border: 1px solid red;
-	padding: 9px;
+	padding-top: 15px;
+	font-size: 50px;
 	
 	
 }
 
 header .regautho{
 
+	background-color:#76C4F5;
+	color:white;
     border: 1px solid gray;
-	font-size: 29px;
+	font-size: 32px;
 	width: 100%;
 	text-align: center;
 	margin-bottom: 15px;
 	height: 35px;
+	max-width: 100%;
 	
 	
+}
+
+header .regautho:hover {
+	color: black;
+	cursor: pointer;
+	border-radius: 7px;
 }
 
 
