@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Login</title>
+	<title><?php echo $pageData['title']; ?></title>
 	<link rel="stylesheet" type="text/css" href="./includes/css/loginPage.css">
 </head>
 <body>
+
+
+	<header>
+		<?php require_once "blocks/header.php"; ?>
+	</header>
+	
 	<div class="login-page">
 		<div class="form">
 			<form class="form-register">

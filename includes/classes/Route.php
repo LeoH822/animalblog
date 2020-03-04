@@ -1,20 +1,18 @@
 <?php
 	
 	class Route {
+		
+		private $routes = [];
 
-		public static $validRoutes = [];
-
-		public static function set($route, $function){
-
-			self::$validRoutes[] = $route;
-			
-			if($_GET['url'] == $route){
-				$function->__invoke();
-			}
-
-			
-			
-
+		public  function __construct(array $routes_array){
+			$this->routes = $routes_array;		
 		}
-	} 
+		
+		public function callController($url){
+			if(isset($this->routes[$url])){
+				return new $this->routes[$url];
+			}
+				return new errorPage();
+		}
+	}	 
  ?>
