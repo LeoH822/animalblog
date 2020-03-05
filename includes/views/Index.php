@@ -12,7 +12,7 @@
 		<?php require_once "blocks/header.php"; ?>
 	</header>
 
-	<div id = "allContent">
+	<div id = "homePageContent">
 		<div class="leftColumn">	
 			<div class="slider">
 				<div class="slider_item">

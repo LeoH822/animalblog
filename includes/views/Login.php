@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title><?php echo $pageData['title']; ?></title>
-	<link rel="stylesheet" type="text/css" href="./includes/css/loginPage.css">
+	<?php require_once "./includes/views/blocks/head.php"; ?>
 </head>
 <body>
 
