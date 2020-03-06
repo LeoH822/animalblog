@@ -6,7 +6,9 @@
 		protected $pageData = array("title" => "Login");
 
 
-		
+		public function Reg(){
+			echo "hihi";
+		}
 		
 	} 
 

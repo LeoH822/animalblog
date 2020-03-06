@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php require_once "./includes/views/blocks/head.php"; ?>
+	<?php require_once "./application/views/blocks/head.php"; ?>
 </head>
 <body>
 	<header>
@@ -10,7 +10,7 @@
 	
 	<div class="login-page">
 		<div class="form">
-			<form class="form-register">
+			<form class="form-register" action="login#reg">
 				<p class="string">Register</p>
 				<input type="text" name="" placeholder="Login">
 				<input type="password" name="" placeholder="password">
@@ -19,7 +19,7 @@
 				<p class = "message">ALready Registered? <a href="#">Login</a></p>
 			</form>
 
-			<form class ="Login-form">
+			<form class ="Login-form" action="login#auth">
 				<p class="string">Login</p>
 				<input type="text" name="" placeholder="Username">
 				<input type="password" name="" placeholder="Password">
