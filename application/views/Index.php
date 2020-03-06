@@ -16,28 +16,28 @@
 		<div class="leftColumn">	
 			<div class="slider">
 				<div class="slider_item">
-					<img src="./includes/images/monkey.png">
+					<img src="./public/images/monkey.png">
 				</div> 
 
 				<div class="slider_item">
-					<img src="./includes/images/wolf.png">
+					<img src="../public/images/wolf.png">
 				</div>
 
 				<div class="slider_item">
-					<img src="./includes/images/fox.png">
+					<img src="./public/images/fox.png">
 				</div>
 
 				<div class="slider_item">
-					<img src="./includes/images/racoon.png">
+					<img src="./public/images/racoon.png">
 				</div>
 
 				<div class="slider_item">
-					<img src="./includes/images/panda.png">
+					<img src="./public/images/panda.png">
 				</div>
 
 
 				<div class="slider_item">
-					<img src="./includes/images/kangaroo.png">
+					<img src="./public/images/kangaroo.png">
 				</div>
 
 				</div>
@@ -49,9 +49,9 @@
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="./includes/js/slick.min.js"></script>
+	<script src="./public/js/slick.min.js"></script>
 
-	<script src="./includes/js/script.js"></script>
+	<script src="./public/js/script.js"></script>
 
 
 </body>

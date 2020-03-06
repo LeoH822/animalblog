@@ -4,8 +4,6 @@
 	<?php require_once "./includes/views/blocks/head.php"; ?>
 </head>
 <body>
-
-
 	<header>
 		<?php require_once "blocks/header.php"; ?>
 	</header>
@@ -21,14 +19,12 @@
 				<p class = "message">ALready Registered? <a href="#">Login</a></p>
 			</form>
 
-
 			<form class ="Login-form">
 				<p class="string">Login</p>
 				<input type="text" name="" placeholder="Username">
 				<input type="password" name="" placeholder="Password">
 				<button>Login</button>
-				<p class = "message">Non Registered? <a href="#">Register</a></p>
-				
+				<p class = "message">Non Registered? <a href="#">Register</a></p>	
 			</form>
 		</div>
 	</div>

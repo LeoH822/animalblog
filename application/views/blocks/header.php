@@ -1,4 +1,4 @@
-<div class = "header__logo"><img src="./includes/images/logo.png"></div>
+<div class = "header__logo"><img src="./public/images/logo.png"></div>
 		
 <div class = "header__menu">
 	<p class = "menu__item"><a href="/">HOME</a></p>
